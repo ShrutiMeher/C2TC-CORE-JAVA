@@ -11,7 +11,7 @@ public class DatatypeInt {
 		long longMin = -9223372036854775808L;
 		byte byteMax = 127;
 		byte byteMin = -128;
-
+		System.out.println("VALUE" +byteMin);
 	}
 
 }
