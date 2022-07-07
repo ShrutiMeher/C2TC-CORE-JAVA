@@ -12,11 +12,11 @@ public class Client {
 	public static void main(String[] args) {
 		
 //for user input
-//		System.out.println("Enter Student ID");
-//		Scanner sc= new Scanner(System.in); 
-//		int a= sc.nextInt(); 
-//		   System.out.println("Enter Student Name");
-//		String b = sc.next();
+		System.out.println("Enter Student ID");
+		Scanner sc= new Scanner(System.in); 
+		int a= sc.nextInt(); 
+		   System.out.println("Enter Student Name");
+		String b = sc.next();
 //		
 		
 		
@@ -26,9 +26,9 @@ public class Client {
 		Student student=new Student();
 		
 		//Create operation
-//		student.setStudentId(a);
-//		student.setName(b);
-//		service.addStudent(student);
+		student.setStudentId(a);
+		student.setName(b);
+		service.addStudent(student);
 //		
 		//at this breakpoint,we have added one record to table
 		
@@ -51,8 +51,8 @@ public class Client {
 	    
 	  //at this breakpoint, record is removed from table
 	   // Delete Operation
-        student=service.findStudentById(11);
-        service.removeStudent(student);
+//        student=service.findStudentById(11);
+//        service.removeStudent(student);
         
 	    System.out.println("End of program/Life cycle completed...");
 	
